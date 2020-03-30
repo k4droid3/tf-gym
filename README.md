@@ -1,5 +1,5 @@
 # Tf-gym
-This docker image adds all the required packages on tensorflow/tensorflow:latest-gpu-py3-jupyter image to make gym, gui work with NVIDIA GPU inside the container.
+This docker image adds all the required packages on tensorflow/tensorflow:latest-gpu-py3-jupyter image to make OpenaAI gym, GUI work with NVIDIA GPU inside the container.
 
 ##  Getting started
 
