@@ -11,10 +11,11 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 RUN pip3 install seaborn
 RUN pip3 install scikit-learn
 RUN pip3 install pandas
+RUN pip3 install torch
 RUN git clone https://github.com/openai/gym
 RUN cd gym && pip3 install -e . && cd ~
 RUN rm -rf gym
-RUN pip3 install torch
 
-CMD ["echo", "It's working!! use -it and bash to open insteractive shell..."]
+
+CMD ["echo", "It's working!! use -it and bash to open interactive shell..."]
 
