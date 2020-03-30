@@ -36,10 +36,10 @@ In order to run this container you will need nvidia-dokcer2 and tensorflow/tenso
 #### Container Parameters
 
 To check if it installed correctly
-> docker run tf-gym:latest
+> docker run --rm tf-gym:latest
 
 To run interactive shell
-> docker run -it tf-gym:latest bash
+> docker run -it --rm tf-gym:latest bash
 
 #### X-server
 > --volume="$HOME/.Xauthority:/home/tf/.Xauthority:rw" 
